@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+    color: #000;
+}
+
+header {
+    background-color: #4b0082;
+    color: #dda0dd;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #4b0082;
+    color: #dda0dd;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #dda0dd;
+    color: #4b0082;
+}
+
+form, main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#addArticleButton {
+    display: none;
+}

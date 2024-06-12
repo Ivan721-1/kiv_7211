@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить статью</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Статьи о кино</h1>
+        <button onclick="window.location.href='main.html'">Вернуться на главную страницу</button>
+    </header>
+    <main>
+        <form id="addArticleForm">
+            <label for="title">Название статьи:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="tags">Теги (через запятую):</label>
+            <input type="text" id="tags" name="tags" required>
+            <label for="content">Текст статьи:</label>
+            <textarea id="content" name="content" rows="10" required></textarea>
+            <label for="pdf">Загрузить PDF:</label>
+            <input type="file" id="pdf" name="pdf" required>
+            <button type="submit">Добавить</button>
+        </form>
+    </main>
+    <script src="js/addArticle.js"></script>
+</body>
+</html>
